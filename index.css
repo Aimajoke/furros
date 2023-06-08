@@ -15,6 +15,7 @@ body{
 }
 
 header{
+    width: 100%;
     font-family: 'Poppins', 'sans-serif';
     font-size: 2rem;
     font-weight: bold;
@@ -57,6 +58,8 @@ span{
 }
 .no-bait{
     font-size: medium;
+
+    color: azure;
 }
 
 a{
@@ -76,9 +79,18 @@ a:hover{
     color: rgb(196, 196, 196);
 }
 .ayuda{
+
     padding-inline: 30px;
     padding-block: 10px;
 }
-@media (max-width: 1250px) {
+@media (max-width: 1000px) {
+    header{
+        text-align: center;
+    }
+    .mainText{
+        line-height: 30px;
+        width: 80%;
+        font-size: x-large;
+    }
     /* … */
   }
